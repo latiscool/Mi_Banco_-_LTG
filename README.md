@@ -8,7 +8,7 @@
     <li> Ahora se debe crear la base datos y tablas .Por lo cual, se
       debera ejecutar el script de comandos SQL que estan en el achivo<b> Mi_Banco_V1.session.sql</b></li><br>
     <ul>Para ejecutar las funciones y/o consultas se debe seguir los stges. pasos.<br>
-  <ul>Desde la Terminal escribe estor comandos
+  <ul>Desde la Terminal escribe estos comandos
       <li>
         <h4>FUNCION ABONAR SALDO A CUENTA1 o CUENTA2</h4>
         <p> node index.js &#8249;abonar&#8250; &#8249;id_de_la_cuenta&#8250;
