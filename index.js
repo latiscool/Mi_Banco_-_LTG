@@ -94,8 +94,8 @@ pool.connect(async (error_conexion, client, release) => {
     pool.end();
   };
   ///
-  ///
-  //FUNCION TRANSFERENCIA DE CUENTA1 A CUENTA2
+  /////FUNCION TRANSFERENCIA DE CUENTA1 A CUENTA2
+
   let Acca1ToAcc2 = async (fecha, cash, recipient, origin) => {
     await client.query('BEGIN');
     const restAcc1 = {
@@ -191,7 +191,7 @@ pool.connect(async (error_conexion, client, release) => {
   };
   ////
   ////
-  ///
+  //CURSOR SALDO DE CUENTA por ID
   let cursorSaldo = async (acc) => {
     const queryCursor = new Cursor(`SELECT * FROM cuentas WHERE id=${acc}`);
 
