@@ -147,7 +147,7 @@ pool.connect(async (error_conexion, client, release) => {
       await client.query('COMMIT');
       //
     } catch (error) {
-      console.log('Hubo un error en la operacion en Catch');
+      console.log('Hubo un error en la operacion de tipo :' + error);
       await client.query('ROLLBACK');
     }
     release();
