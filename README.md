@@ -18,7 +18,7 @@
     </ul>
     <ul>
       <li>
-        <h4>FUNCION TRANSFERENCIA DE SALDO DESDE CUENTA1 A CUENTA2</h4>
+        <h4>FUNCION TRANSFERENCIA DE SALDO DESDE CUENTA1 A CUENTA2 </h4>
         node index.js &#8249;trans&#8250; &#8249;id_cuenta_origen&#8250; &#8249;monto_tranferir&#8250;
         &#8249;id_de_la_cuenta_destino&#8250;
         <p></p><u> EJEMPLO</p></u>
