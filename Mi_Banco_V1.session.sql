@@ -1,4 +1,4 @@
------ ● Crear una base de datos llamada ​banco.
+--- ● Crear una base de datos llamada ​banco.
 CREATE DATABASE Banco;
 
 ----● Crear una tabla ​transacciones
@@ -21,6 +21,6 @@ INSERT INTO cuenta values (2, 0);
 
 
 
--- -- SELECT*FROM cuentas;
+-- SELECT*FROM cuentas;
 -- SELECT*FROM transacciones;
 
